@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { ProductTable } from './product-table.js';
+//import { AntdTable } from './antd-table.js';
 
 const products = [
   { id: 1, name: 'PS5', price: '$729', stock: 13 },
@@ -11,6 +12,8 @@ const products = [
 
 export default function App() {
   return (
+    <>
     <ProductTable products={products} />
+    </>
   );
 }

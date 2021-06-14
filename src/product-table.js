@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Table } from 'antd';
 
 const requestSort = key => {
   let direction = 'ascending';
